@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tst</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <form method="POST" action="/user/register/">
+            {%csrf_token%}
+            <input type="text" name="user" id="" value="user">
+
+            <input type="text" name="email" id="" value="email">
+            <input type="text" name="password" id="" value="password">
+            <!-- <input type="text" name="user" id="" value="user"> -->
+            <input type="submit" value="">
+        </form>
+    </body>
+</html>

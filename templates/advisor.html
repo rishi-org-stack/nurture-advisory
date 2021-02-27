@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tst</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <form method="POST" action="/admin/advisor/">
+            {%csrf_token%}
+            <input type="text" name="name" id="" value="name">
+            <input type="text" name="photourl" id="" value="photo url">
+            <input type="submit" value="">
+        </form>
+    </body>
+</html>
